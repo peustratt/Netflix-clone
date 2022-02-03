@@ -24,7 +24,7 @@ body {
 header .container {
     display: flex;
     align-items: center;
-    position: absolute;
+    position: fixed;
     gap: 2em;
     top: 0;
     left: 0;
@@ -190,3 +190,8 @@ nav > a:hover {
 
 }
 
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
