@@ -1,5 +1,6 @@
 # netflix-clone
 Clone do netflix, desafio do Inter Frontend Developer bootcamp da DIO
+- Link para o [site](https://peustratt.github.io/netflix-clone/)
 
 ## 📋 Requisitos
 
