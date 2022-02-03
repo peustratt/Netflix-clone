@@ -11,13 +11,13 @@ body {
 
 * {
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
 }
 
 .container {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
 }
 
 /* header */
@@ -55,7 +55,7 @@ nav > a:hover {
     display: flex;
     align-items: center;
     gap: 1em;
-    font-size: 12px;
+    font-size: 16px;
     transition: 200ms ease-in-out;
 }
 
@@ -68,22 +68,22 @@ nav > a:hover {
 }
 
 .user-info img {
-    height: 25px;
+    height: 30px;
     border-radius: 2px;
 }
  /* filme principal */
  .filme-principal {
      position: relative;
-     font-size: 16px;
+     font-size: 25px;
      background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url('../images//the-avengers-wallpaper.jpg');
-     height: 400px;
+     height: 500px;
      background-size: cover;
      display: flex;
      gap: 1em;
      flex-direction: column;
      justify-content: center;
      align-items: flex-start;
-     padding-top: 1em;
+     padding-top: .35em;
  }
 
  .filme-principal .container {
@@ -91,9 +91,9 @@ nav > a:hover {
  }
 
  .title-logo-wrapper {
-    width: 300px;
+    width: 400px;
     overflow: hidden;
-    height: 141px;
+    height: 200px;
 }
 
 .title-logo {
@@ -112,7 +112,7 @@ nav > a:hover {
 }
 
 .filme-principal .descricao {
-    font-size: 12px;
+    font-size: 16px;
     max-width: 400px;
     margin-top: .7em;
 }  
@@ -128,13 +128,13 @@ nav > a:hover {
 
 .icon-circle {
     border: 1.5px solid #fff;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 3px;
+    margin-right: 2px;
 }
 
 .icon-circle > i {
@@ -148,13 +148,13 @@ nav > a:hover {
 
 .column {
     width: 2px;
-    height: 22px;
+    height: 27px;
     background: #fff;
     opacity: .7;
 }
 
 .rating-img {
-    height: 30px;
+    height: 35px;
 }
 
 .btns-wrapper {
@@ -169,10 +169,15 @@ nav > a:hover {
     display: flex;
     align-items: center;
     gap: .4em;
-    padding: .4em .7em;
+    padding: .5em 1em;
     border-radius: 4px;
     transition: 120ms ease-in-out;
-    font-size: 12px;
+    font-size: 18px;
+}
+
+.btn p {
+    font-size: 14px;
+    line-height: 0;
 }
 
 .btn:hover {
