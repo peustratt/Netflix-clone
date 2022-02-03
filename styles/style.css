@@ -43,6 +43,7 @@ nav > a:hover {
 
  /* filme principal */
  .filme-principal {
+     position: relative;
      font-size: 16px;
      background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url('../images//the-avengers-wallpaper.jpg');
      height: 400px;
@@ -54,6 +55,11 @@ nav > a:hover {
      align-items: flex-start;
      padding: 0 1em;
  }
+
+ /* .filme-principal .container {
+     display: flex;
+     flex-direction: column;
+ } */
 
  .title-logo-wrapper {
     width: 300px;
@@ -72,15 +78,60 @@ nav > a:hover {
     gap: .5em;
 }
 
- .filme-principal .descricao {
+.msg-suplementar > i {
+    color: var(--vermelho);
+}
+
+.filme-principal .descricao {
     font-size: 12px;
     max-width: 400px;
     margin-top: .7em;
- }  
+}  
+
+.sound-rating-wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 1em;
+    bottom: 5em;
+    gap: .3em;
+}
+
+.icon-circle {
+    border: 1.5px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+}
+
+.icon-circle > i {
+    font-size: 14px;
+}
+
+.icon-circle:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.column {
+    width: 2px;
+    height: 22px;
+    background: #fff;
+    opacity: .7;
+}
+
+.rating-img {
+    height: 30px;
+}
 
 .btns-wrapper {
     display: flex;
     gap: .5em;
+    margin-top: .6em;
 }
 
 .btn {
@@ -92,6 +143,7 @@ nav > a:hover {
     padding: .4em .7em;
     border-radius: 4px;
     transition: 120ms ease-in-out;
+    font-size: 12px;
 }
 
 .btn:hover {
