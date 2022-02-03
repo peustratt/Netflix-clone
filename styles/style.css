@@ -15,13 +15,17 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
 
+/* header */
 header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 1em;
     position: absolute;
+    gap: 2em;
     top: 0;
     left: 0;
     right: 0;
@@ -46,6 +50,27 @@ nav > a:hover {
     color: #fff;
 }
 
+.user-info {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 12px;
+    transition: 200ms ease-in-out;
+}
+
+.user-info > * {
+    transition: 200ms ease-in-out;
+}
+
+.user-info > *:hover {
+    opacity: .7;
+}
+
+.user-info img {
+    height: 25px;
+    border-radius: 2px;
+}
  /* filme principal */
  .filme-principal {
      position: relative;
@@ -58,13 +83,12 @@ nav > a:hover {
      flex-direction: column;
      justify-content: center;
      align-items: flex-start;
-     padding: 1em 1em 0;
+     padding-top: 1em;
  }
 
- /* .filme-principal .container {
-     display: flex;
-     flex-direction: column;
- } */
+ .filme-principal .container {
+     max-width: 70%;
+ }
 
  .title-logo-wrapper {
     width: 300px;
