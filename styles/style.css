@@ -6,6 +6,7 @@
 body {
     background: var(--preta);
     font-family: "Times New Roman", Times, serif;
+    color: #fff;
 }
 
 * {
@@ -14,10 +15,12 @@ body {
     box-sizing: border-box;
 }
 
+
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1em;
 
 }
 
@@ -25,15 +28,79 @@ header .logo {
     color: var(--vermelho);
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
-    margin-left: 5px;
 }
 
 nav > a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
+    transition: 120ms ease-in-out;
 }
 
 nav > a:hover {
     color: #fff;
 }
+
+ /* filme principal */
+ .filme-principal {
+     font-size: 16px;
+     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url('../images//the-avengers-wallpaper.jpg');
+     height: 400px;
+     background-size: cover;
+     display: flex;
+     gap: 1em;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 0 1em;
+ }
+
+ .title-logo-wrapper {
+    width: 300px;
+    overflow: hidden;
+    height: 141px;
+}
+
+.title-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.msg-suplementar {
+    display: flex;
+    gap: .5em;
+}
+
+ .filme-principal .descricao {
+    font-size: 12px;
+    max-width: 400px;
+    margin-top: .7em;
+ }  
+
+.btns-wrapper {
+    display: flex;
+    gap: .5em;
+}
+
+.btn {
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .4em;
+    padding: .4em .7em;
+    border-radius: 4px;
+    transition: 120ms ease-in-out;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.secondary-btn {
+    color: #fff;
+    background: rgba(109, 109, 110, 0.7);
+
+}
+
