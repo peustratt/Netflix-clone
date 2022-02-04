@@ -6,9 +6,9 @@ Clone do netflix, desafio do Inter Frontend Developer bootcamp da DIO
 
 ### Criar um clone do Netflix
 
- ❌ Navbar
+ ✔️ Navbar
 
- ❌ Carrousel
+ ✔️ Carrousel
 
 ## 🛠 Tecnologias
 
