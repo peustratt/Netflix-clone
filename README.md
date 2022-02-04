@@ -4,7 +4,7 @@ Clone do netflix, desafio do Inter Frontend Developer bootcamp da DIO
 
 ## 📋 Requisitos
 
-### Criar um clone do Netflix
+### Criar uma página estática clone do Netflix
 
  ✔️ Navbar
 
